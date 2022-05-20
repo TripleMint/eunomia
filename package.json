@@ -1,0 +1,31 @@
+{
+  "name": "eslint-plugin-eunomia",
+  "version": "0.0.0",
+  "description": "Home for all codified liting and style rules for Triplemint / The Agency",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/triplemint/eunomia.git"
+  },
+  "keywords": [
+    "lint",
+    "style",
+    "guide",
+    "rules"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@thi.ng/diff": "^4.0.12",
+    "@types/estree": "^0.0.50",
+    "eslint": "^8.15.0",
+    "ts-node": "^10.7.0"
+  },
+  "bugs": {
+    "url": "https://github.com/triplemint/eunomia/issues"
+  },
+  "homepage": "https://github.com/triplemint/eunomia#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
