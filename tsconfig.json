@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "allowJs": false,
+        "allowSyntheticDefaultImports": true,
+        "checkJs": false,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "importsNotUsedAsValues": "remove",
+        "jsx": "react",
+        "jsxFactory": "_jsx",
+        "lib": ["ES2022"],
+        "moduleResolution": "node",
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "target": "ES2022"
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "include": [
+        "rules/**/*.ts",
+        "utils/**/*.ts"
+    ],
+    "ts-node": {
+        "transpileOnly": true
+    }
+}
