@@ -8,14 +8,14 @@
         "importsNotUsedAsValues": "remove",
         "jsx": "react",
         "jsxFactory": "_jsx",
-        "lib": ["DOM", "DOM.Iterable", "ES2019"],
+        "lib": ["ES2022"],
         "moduleResolution": "node",
         "noUnusedLocals": false,
         "noUnusedParameters": false,
         "resolveJsonModule": true,
         "skipLibCheck": true,
         "sourceMap": true,
-        "target": "ES2019"
+        "target": "ES2022"
     },
     "exclude": [
         "node_modules"
@@ -24,5 +24,7 @@
         "rules/**/*.ts",
         "utils/**/*.ts"
     ],
-    "transpileOnly": true
+    "ts-node": {
+        "transpileOnly": true
+    }
 }
