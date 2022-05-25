@@ -19,7 +19,8 @@
     "@thi.ng/diff": "^4.0.12",
     "@types/estree": "^0.0.50",
     "eslint": "^8.15.0",
-    "ts-node": "^10.7.0"
+    "ts-node": "^10.7.0",
+    "typescript": "^4.7.2"
   },
   "bugs": {
     "url": "https://github.com/triplemint/eunomia/issues"
