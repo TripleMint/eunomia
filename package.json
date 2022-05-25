@@ -1,7 +1,7 @@
 {
-  "name": "eslint-plugin-eunomia",
+  "name": "@triplemint/eslint-plugin-eunomia",
   "version": "0.0.0",
-  "description": "Home for all codified liting and style rules for The Agency",
+  "description": "Home for all codified linting and style rules for The Agency",
   "main": "index.js",
   "repository": {
     "type": "git",
